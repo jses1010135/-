@@ -61,7 +61,7 @@ int main() {
 
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 5; j++) {
-            card[i][j] = rand() % 10;
+			card[i][j] = rand() % 10;//產生答案
         }
     }
 
